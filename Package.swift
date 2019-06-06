@@ -7,6 +7,6 @@ let package = Package(
         .library(name: "Disk", targets: ["Disk"])
     ],
     targets: [
-        .target(name: "Disk", path: "Lib/Sources")
+        .target(name: "Disk", path: "Sources")
     ]
 )
